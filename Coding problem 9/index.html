@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<title> Gradients : </title>
+<style>
+body{background-color: #b8cced;}
+.container div
+{
+	width:200px;
+	height:150px;
+	display:inline-block;
+	margin:2px;
+	color:#ec8007;
+	vertical-align: top;
+	line-height: 230px;
+	font-size: 20px;
+}
+
+.linear{background:linear-gradient(to bottom, #830960a3 , #ffffff);}
+
+.radial{background:radial-gradient(#830960a3,#ffffff);}
+
+.repeating-linear{background:repeating-linear-gradient(-45deg,#830960a3, #ffffff 5px, #fff 5px, #fff 10px);}
+
+.repeating-radial{background:repeating-radial-gradient(
+#830960a3, 
+#ffffff 5px, 
+#fff 5px, 
+#fff 10px);}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="linear"></div>
+	<div class="radial"></div>
+	<div class="repeating-linear"></div>
+	<div class="repeating-radial"></div>
+</div>
+</body>
+</html>
